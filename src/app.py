@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model from the pickle file
-with open('../data/baby_cry_model.pkl', 'rb') as f:
+with open('data/baby_cry_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Define extract_features function
